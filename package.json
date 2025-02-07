@@ -1,0 +1,19 @@
+{
+  "name": "r-shiny-dashboard",
+  "version": "1.0.0",
+  "description": "R Shiny Dashboard",
+  "scripts": {
+    "start": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "r",
+    "shiny",
+    "dashboard"
+  ],
+  "author": "Bolt",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
