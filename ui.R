@@ -9,8 +9,7 @@ ui <- fluidPage(
   sidebarLayout(
     sidebarPanel(
       selectInput("dataset", "Choose a dataset:", choices = datasets),
-      selectInput("theme", "Choose a theme:",
-                  choices = shinythemes::themeSelector()),
+      shinythemes::themeSelector(),
       width = 2
     ),
     mainPanel(
